@@ -135,22 +135,3 @@ DDT-API-Testing/
 └── DDT_screenshots/
     ├── ddt-newman-execution.png
     └── ddt-html-report-generated.png
-```
-
-## ⚠️ Before publishing
-
--   Include `DDT.csv` if you want others to reproduce the data-driven
-    run.
--   Check the environment values before execution. In the uploaded
-    environment, `fName` currently contains the API base URL; the
-    collection's CreateBooking pre-request script overwrites it from the
-    CSV iteration data. fileciteturn1file2L3-L8
--   Remove any real credentials, tokens, or private data before making
-    the repository public.
-
-------------------------------------------------------------------------
-
-::: {align="center"}
-**Built to practise data-driven API automation with Postman and
-Newman.**
-:::
